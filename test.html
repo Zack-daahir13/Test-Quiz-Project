@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            padding: 0;
+            margin: 0;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            height: 100%;
+        }
+
+        table{
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            border-collapse: collapse;
+            width: 800px;
+            height: 500px;
+            border: 1px solid #bdc3c7;
+            box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
+            margin-top: 105%;
+            margin-bottom: 40%;
+            border-collapse: collapse;
+        }
+
+        tr{
+            transition: all .2s ease-in;
+            cursor: pointer;
+        }
+
+        th,
+        td{
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        #header{
+            background-color: #16a085;
+            color: #fff;
+        }
+
+        h1{
+            font-weight: 600;
+            text-align: center;
+            background-color: #16a085;
+            color: #fff;
+            padding: 10px 0px;
+        }
+
+        tr:hover{
+            background-color: #f5f5f5;
+            transform: scale(1.02);
+            box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        /*media screan*/
+        @media (max-width: 100px) {
+            table{
+                overflow-x: auto;
+                display: block;
+                width: 90%;
+            }
+        }
+
+        td a{
+            text-decoration: none;
+        }
+
+        /*scrollbar*/
+        ::-webkit-scrollbar{
+            width: 15px;
+        }
+        ::-webkit-scrollbar-track{
+            background-color: #16a085;
+        }
+        ::-webkit-scrollbar-thumb{
+            background: linear-gradient(#642bff, #ff22e6);
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to problems and solutions</h1>
+    <hr>
+
+    <div style="overflow-x: auto;">
+    <table >
+        <tr id="header">
+            <th>no</th>
+            <th>Name</th>
+            <th>Problem</th>
+        </tr>
+        
+        <tr><a href="question-1.html"></a>
+            <td>1. </td>
+            <td> <a href="question1.html" target="_blank">C/samad C/lahi Adam</a></td>
+            <td>1</td>
+        </tr>
+
+
+        <tr>
+            <td>2. </td>
+            <td>Axmed Cabdi Maxamed</td>
+            <td>1</td>
+        </tr>
+
+        <tr>
+            <td>3. </td>
+            <td>Iftin Salaad Ciise</td>
+            <td>1</td>
+        </tr>
+
+        <tr>
+            <td>4. </td>
+            <td>Xafso Xasan Jamac</td>
+            <td>1</td>
+        </tr>
+
+        <tr>
+            <td>5. </td>
+            <td>C/wali Maxamed Abukar</td>
+            <td>1</td>
+        </tr>
+
+        <tr>
+            <td>6. </td>
+            <td>Xamdi Adan Cabdi</td>
+            <td>1</td>
+        </tr>
+
+        <tr>
+            <td>7. </td>
+            <td>Faiso Cusman Maxamud</td>
+            <td>1</td>
+        </tr>
+
+        <tr>
+            <td>8. </td>
+            <td>C/fitax Cabdi Farax</td>
+            <td>1</td>
+        </tr>
+
+        <tr>
+            <td>9. </td>
+            <td>C/salaan Farax Ashkir</td>
+            <td>1</td>
+        </tr>
+
+        <tr>
+            <td>10. </td>
+            <td>C/raxman Cisman Cali</td>
+            <td>1</td>
+        </tr>
+
+        <tr>
+            <td>11. </td>
+            <td>Maxamed Mumin Xasan</td>
+            <td>1</td>
+        </tr>
+
+        <tr>
+            <td>12. </td>
+            <td>Rubeco c/karin Cali</td>
+            <td>1</td>
+        </tr>
+
+        <tr>
+            <td>13. </td>
+            <td>Hani C/lahi Maxamed</td>
+            <td>1</td>
+        </tr>
+
+        <tr>
+            <td>14. </td>
+            <td>C/kafi Cali Maxamed</td>
+            <td>1</td>
+        </tr>
+
+        <tr>
+            <td>15. </td>
+            <td>Nacimo Yasiin Xareed</td>
+            <td>1</td>
+        </tr>
+
+        <tr>
+            <td>16. </td>
+            <td>Taqwo Sayn C/rixiin</td>
+            <td>1</td>
+        </tr>
+
+        <tr>
+            <td>17. </td>
+            <td>Saabarin Maxamed Adan</td>
+            <td>1</td>
+        </tr>
+
+        <tr>
+            <td>18. </td>
+            <td>Maxamud Adan C/qadir</td>
+            <td>1</td>
+        </tr>
+
+        <tr>
+            <td>19. </td>
+            <td>Maxamed Nuur Cusman</td>
+            <td>1</td>
+        </tr>
+
+        <tr>
+            <td>20. </td>
+            <td>Salmo Cali Maxamud</td>
+            <td>1</td>
+        </tr>
+
+        <tr>
+            <td>21. </td>
+            <td>Bile Xusen Maxamed</td>
+            <td>1</td>
+        </tr>
+
+        <tr>
+            <td>22. </td>
+            <td>Maxamed Xasan Maxamed</td>
+            <td>1</td>
+        </tr>
+
+        <tr>
+            <td>23. </td>
+            <td>Meymun Cusmaan Maxamud</td>
+            <td>1</td>
+        </tr>
+
+        <tr>
+            <td>24.</td>
+            <td>Yaasiin C/lahi Cali</td>
+            <td>1</td>
+        </tr>
+
+        <tr>
+            <td>25. </td>
+            <td>Saalax Adan Cali</td>
+            <td>1</td>
+        </tr>
+
+        <tr>
+            <td>26. </td>
+            <td>C/salan Maxamed Isxaaq</td>
+            <td>1</td>
+        </tr>
+
+        <tr>
+            <td>27. </td>
+            <td>C/laahi Xasan Maxamud</td>
+            <td>1</td>
+        </tr>
+
+        <tr>
+            <td>28. </td>
+            <td>C/raxman Cali Maxamed</td>
+            <td>1</td>
+        </tr>
+
+        <tr>
+            <td>29. </td>
+            <td>Axmed Xasan Shire</td>
+            <td>1</td>
+        </tr>
+
+        <tr>
+            <td>30. </td>
+            <td>Aasiyo Shafici Warsame</td>
+            <td>1</td>
+        </tr>
+
+        <tr>
+            <td>31. </td>
+            <td>Maxamed Maxamud Cali</td>
+            <td>1</td>
+        </tr>
+
+        <tr>
+            <td>32. </td>
+            <td>C/raxman C/laahi Axmed</td>
+            <td>1</td>
+        </tr>
+
+        <tr>
+            <td>33. </td>
+            <td>Mowliid Maxamed Cabdi</td>
+            <td>1</td>
+        </tr>
+
+        <tr>
+            <td>34. </td>
+            <td>Nasro Maxamed Abukar</td>
+            <td>1</td>
+        </tr>
+
+        <tr>
+            <td>35. </td>
+            <td>Malyuun Cumar Muxudin</td>
+            <td>1</td>
+        </tr>
+
+        <tr>
+            <td>36. </td>
+            <td>C/raxmaan Yusuf Macow</td>
+            <td>1</td>
+        </tr>
+
+        <tr>
+            <td>37. </td>
+            <td>Layla Cisman Ibraahim</td>
+            <td>1</td>
+        </tr>
+
+        <tr>
+            <td>38. </td>
+            <td>C/mahad Xasan Maxamed</td>
+            <td>1</td>
+        </tr>
+
+        <tr>
+            <td>39. </td>
+            <td>C/raxman C/laahi Maxamud</td>
+            <td>1</td>
+        </tr>
+
+        <tr>
+            <td>40. </td>
+            <td>Isra C/laahi Warsame</td>
+            <td>1</td>
+        </tr>
+
+        <tr>
+            <td>41. </td>
+            <td>Sahro Axmed Bashiir</td>
+            <td>1</td>
+        </tr>
+
+        <tr>
+            <td>42. </td>
+            <td>Canab Maxamed Xirsi</td>
+            <td>1</td>
+        </tr>
+
+        <tr>
+            <td>43. </td>
+            <td>Mahdi C/qaadir Cabdi</td>
+            <td>1</td>
+        </tr>
+
+        <tr>
+            <td>44. </td>
+            <td>Maxamed Cali Cabdi</td>
+            <td>1</td>
+        </tr>
+
+        <tr>
+            <td>45. </td>
+            <td>Sayid-cali Cabdi Cali</td>
+            <td>1</td>
+        </tr>
+
+        <tr>
+            <td>46. </td>
+            <td>Bashiir C/nasir Cumar</td>
+            <td>1</td>
+        </tr>
+
+        <tr>
+            <td>47. </td>
+            <td>C/maalik muse Raage</td>
+            <td>1</td>
+        </tr>
+
+        <tr>
+            <td>48. </td>
+            <td>Bashiir Maxamed Cali</td>
+            <td>1</td>
+        </tr>
+
+        <tr>
+            <td>49. </td>
+            <td>Yusuf Sadaq Maxamed</td>
+            <td>1</td>
+        </tr>
+
+        <tr>
+            <td>50. </td>
+            <td>C/casiis Maxamd Cabdi</td>
+            <td>1</td>
+        </tr>
+
+        <tr>
+            <td>51. </td>
+            <td>Salmo C/laahi Maxamed</td>
+            <td>1</td>
+        </tr>
+
+        <tr>
+            <td>52. </td>
+            <td>C/wahab Abshir Cabdule</td>
+            <td>1</td>
+        </tr>
+
+        <tr>
+            <td>53. </td>
+            <td>Maalik Yacqub Sharif</td>
+            <td>1</td>
+        </tr>
+
+        <tr>
+            <td>54. </td>
+            <td>Muxudin Axmed Nuur</td>
+            <td>1</td>
+        </tr>
+
+        <tr>
+            <td>55. </td>
+            <td>C/waxid Maxamed Sayid-cali</td>
+            <td>1</td>
+        </tr>
+
+        <tr>
+            <td>56. </td>
+            <td>Sahra Abukar Cali</td>
+            <td>1</td>
+        </tr>
+
+        <tr>
+            <td>57. </td>
+            <td>Xanaan C/raxman Maxamuud</td>
+            <td>1</td>
+        </tr>
+
+        <tr>
+            <td>58. </td>
+            <td>Aamino C/laahi Maxamed</td>
+            <td>1</td>
+        </tr>
+
+        <tr>
+            <td>59. </td>
+            <td>Maxamuud Cumar Cali</td>
+            <td>1</td>
+        </tr>
+
+        <tr>
+            <td>60. </td>
+            <td>Faadumo C/qadir Suufi</td>
+            <td>1</td>
+        </tr>
+
+        <tr>
+            <td>61. </td>
+            <td>C/wali Cali Maxamuud</td>
+            <td>1</td>
+        </tr>
+
+        <tr>
+            <td>62. </td>
+            <td>Xabiib Axmed Cumar</td>
+            <td>1</td>
+        </tr>
+
+        <tr>
+            <td>63. </td>
+            <td>Sakariye C/qadir Cali</td>
+            <td>1</td>
+        </tr>
+
+        <tr>
+            <td>64. </td>
+            <td>C/qadir Farax Maxamud</td>
+            <td>1</td>
+        </tr>
+
+        <tr>
+            <td>65. </td>
+            <td>Ciise c/raxmaan Maxamed</td>
+            <td>1</td>
+        </tr>
+
+        <tr>
+            <td>66. </td>
+            <td>Caasho Muqtaar Xasan</td>
+            <td>1</td>
+        </tr>
+
+        <tr>
+            <td>67. </td>
+            <td>Ayuub Maxamuud Axmed</td>
+            <td>1</td>
+        </tr>
+
+        <tr>
+            <td>68. </td>
+            <td>Ibraahim Abukar Sharif</td>
+            <td>1</td>
+        </tr>
+
+        <tr>
+            <td>69. </td>
+            <td>C/casis Aadan Xasan</td>
+            <td>1</td>
+        </tr>
+
+        <tr>
+            <td>70. </td>
+            <td>Siciid Deeq Ciise</td>
+            <td>1</td>
+        </tr>
+
+        <tr>
+            <td>71. </td>
+            <td>Maxamed Botaan Odaysuge</td>
+            <td>1</td>
+        </tr>
+
+        <tr>
+            <td>72. </td>
+            <td>Faarax Xasan Cilmi</td>
+            <td>1</td>
+        </tr>
+
+        <tr>
+            <td>73. </td>
+            <td>Sakariye Daahir Axmed</td>
+            <td>1</td>
+        </tr>
+
+        <tr>
+            <td>74. </td>
+            <td>Maandeeq C/raxmaan Xasan</td>
+            <td>1</td>
+        </tr>
+
+        <tr>
+            <td>75. </td>
+            <td>Maxamuud Aadan Kusow</td>
+            <td>1</td>
+        </tr>
+
+        <tr>
+            <td>76. </td>
+            <td>Maxamed C/lahi Barre</td>
+            <td>1</td>
+        </tr>
+
+        <tr>
+            <td>77. </td>
+            <td>Axmed Maxamed Axmed</td>
+            <td>1</td>
+        </tr>
+
+        <tr>
+            <td>78. </td>
+            <td>C/laahi Rooble Cali</td>
+            <td>1</td>
+        </tr>
+
+        <tr>
+            <td>79. </td>
+            <td>Maxamed Ibrahim Xasan</td>
+            <td>1</td>
+        </tr>
+
+        <tr>
+            <td>80. </td>
+            <td>C/najib Shacir C/karin</td>
+            <td>1</td>
+        </tr>
+        
+        <tr>
+            <td>81. </td>
+            <td>C/maalik C/laahi Muuse</td>
+            <td>1</td>
+        </tr>
+
+        <tr>
+            <td>82. </td>
+            <td>Sihaam Maxamed Muqtar</td>
+            <td>1</td>
+        </tr>
+    </table>
+    </div>
+</body>
+</html>

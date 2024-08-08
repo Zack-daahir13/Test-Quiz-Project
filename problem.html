@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        table{
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+            left: 50%;
+            top: 50%;
+        
+        }
+       
+        th, 
+        td{
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+            white-space: nowrap;
+            box-sizing: border-box;
+            border-bottom: 1px solid #ddd;
+        }
+
+        #header{
+            background-color: #16a085;
+            color: #fff;
+        }
+
+      
+        @media (max-width: 100px) {
+            table{
+                overflow-x: auto;
+                display: block;
+                
+                
+            }
+        }
+
+       
+
+        ::-webkit-scrollbar{
+            width: 15px;
+        }
+        ::-webkit-scrollbar-track{
+            background-color: #16a085;
+        }
+        ::-webkit-scrollbar-thumb{
+            background: linear-gradient(#642bff, #ff22e6);
+        }
+
+        tr:hover{
+            background-color: #f5f5f5;
+            transform: scale(1.02);
+            box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
+            color: #ff22e6;
+        }
+
+        tr a:hover{
+            color: #ff22e6;
+        }
+        #header{
+            background-color: #16a085;
+            color: #fff;
+        }
+
+        tr{
+            transition: all .2s ease-in;
+            cursor: pointer;
+        }
+        td a{
+            text-decoration: none;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <table >
+        <tr id="header">
+            <th>no</th>
+            <th>Name</th>
+            <th>Problem</th>
+        </tr>
+        
+        <tr>
+            <td><a href="person-1.html">1. </a> </td>
+            <td> <a href="person-1.html" >C/samad C/lahi Adam</a></td>
+            <td><a href="person-1.html">1</a></td>
+        </tr>
+
+
+        <tr>
+            <td><a href="person-2.html">2. </a> </td>
+            <td><a href="person-2.html">Axmed Cabdi Maxamed</a></td>
+            <td><a href="person-2.html">1</a></td>
+        </tr>
+
+        <tr>
+            <td><a href="person-3.html">3. </a> </td>
+            <td><a href="person-3.html">Iftin Salaad Ciise</a></td>
+            <td><a href="person-3.html">1</a></td>
+        </tr>
+
+        <tr>
+            <td><a href="person-4.html">4. </a></td>
+            <td><a href="person-4.html">Xafso Xasan Jaamac</a></td>
+            <td><a href="person-4.html">1</a></td>
+        </tr>
+
+        <tr>
+            <td>5. </td>
+            <td><a href="#">C/wali Maxamed Abukar</a></td>
+            <td>1</td>
+        </tr>
+
+        <tr>
+            <td>6. </td>
+            <td><a href="#">Xamdi Adan Cabdi</a></td>
+            <td>0</td>
+        </tr>
+
+        <tr>
+            <td>7. </td>
+            <td><a href="#">Faiso Cusman Maxamud</a></td>
+            <td>0</td>
+        </tr>
+
+        <tr>
+            <td>8. </a></td>
+            <td><a href="person-8.html">C/fitax Cabdi Farax</a></td>
+            <td><a href="person-8.html">1</a></td>
+        </tr>
+
+        <tr>
+            <td>9. </a></td>
+            <td><a href="person-9.html">C/salaan Farax Ashkir</a></td>
+            <td><a href="person-9.html">1</a></td>
+        </tr>
+
+        <tr>
+            <td>10. </a> </td>
+            <td><a href="person-10.html">C/raxman Cisman Cali</a></td>
+            <td><a href="person-10.html">1</a></td>
+        </tr>
+
+        <tr>
+            <td>11. </td>
+            <td><a href="person-11.html">Maxamed Muumin Xasan</a></td>
+            <td><a href="person-11.html">1</a></td>
+        </tr>
+
+        <tr>
+            <td>12. </td>
+            <td><a href="person-12.html">Rubeco c/kariin Cali</a></td>
+            <td><a href="person-12.html">1</a></td>
+        </tr>
+
+        <tr>
+            <td>13. </td>
+            <td><a href="person-13.html">Hani C/lahi Maxamed</a></td>
+            <td><a href="person-13.html">1</a></td>
+        </tr>
+
+        <tr>
+            <td>14. </td>
+            <td><a href="#">C/kaafi Cali Maxamed</a></td>
+            <td>1</td>
+        </tr>
+
+        <tr>
+            <td>15. </td>
+            <td><a href="person-15.html">Nacimo Yasiin Xareed</a></td>
+            <td><a href="person-15.html">1</a></td>
+        </tr>
+
+        <tr>
+            <td>16. </td>
+            <td><a href="person-16.html">Taqwo Sayn C/rixiin</a></td>
+            <td><a href="person-16.html">1</a></td>
+        </tr>
+
+        <tr>
+            <td>17. </td>
+            <td><a href="person-17.html">Saabarin Maxamed Adan</a></td>
+            <td><a href="person-17.html">1</a></td>
+        </tr>
+
+        <tr>
+            <td>18. </td>
+            <td><a href="#">Maxamud Aadan C/qaadir</a></td>
+            <td>0</td>
+        </tr>
+
+        <tr>
+            <td>19. </td>
+            <td><a href="person-19.html">Maxamed Nuur Cusman</a></td>
+            <td><a href="person-19.html">1</a></td>
+        </tr>
+
+        <tr>
+            <td>20. </td>
+            <td><a href="person-20.html">Salmo Cali Maxamud</a></td>
+            <td><a href="person-20.html">1</a></td>
+        </tr>
+
+        <tr>
+            <td>21. </td>
+            <td><a href="#">Bile Xusen Maxamed</a></td>
+            <td>0</td>
+        </tr>
+
+        <tr>
+            <td>22. </td>
+            <td><a href="person-22.html">Maxamed Xasan Maxamed</a></td>
+            <td><a href="person-22.html">1</a></td>
+        </tr>
+
+        <tr>
+            <td>23. </td>
+            <td><a href="person-23.html">Meymun Cusmaan Maxamud</a></td>
+            <td><a href="person-23.html">1</a></td>
+        </tr>
+
+        <tr>
+            <td>24.</td>
+            <td><a href="person-24.html">Yaasiin C/lahi Cali</a></td>
+            <td><a href="person-24.html">1</a></td>
+        </tr>
+
+        <tr>
+            <td>25. </td>
+            <td><a href="person-25.html">Saalax Adan Cali</a></td>
+            <td><a href="person-25.html">1</a></td>
+        </tr>
+
+        <tr>
+            <td>26. </td>
+            <td><a href="person-26.html">C/salan Maxamed Isxaaq</a></td>
+            <td><a href="person-26.html">1</a></td>
+        </tr>
+
+        <tr>
+            <td>27. </td>
+            <td><a href="person-27.html">C/laahi Xasan Maxamud</a></td>
+            <td><a href="person-27.html">1</a></td>
+        </tr>
+
+        <tr>
+            <td>28. </td>
+            <td><a href="person-28.html">C/raxman Cali Maxamed</a></td>
+            <td><a href="person-28.html">1</a></td>
+        </tr>
+
+        <tr>
+            <td>29. </td>
+            <td><a href="person-29.html">Axmed Xasan Shire</a></td>
+            <td><a href="person-29.html">1</a></td>
+        </tr>
+
+        <tr>
+            <td>30. </td>
+            <td><a href="person-30.html">Aasiyo Shafici Warsame</a></td>
+            <td><a href="person-30.html">1</a></td>
+        </tr>
+
+        <tr>
+            <td>31. </td>
+            <td><a href="person-31.html">Maxamed Maxamud Cali</a></td>
+            <td><a href="person-31.html">1</a></td>
+        </tr>
+
+        <tr>
+            <td>32. </td>
+            <td><a href="#">C/raxman C/laahi Axmed</a></td>
+            <td>0</td>
+        </tr>
+
+        <tr>
+            <td>33. </td>
+            <td><a href="person-33.html">Mowliid Maxamed Cabdi</a></td>
+            <td><a href="person-33.html">1</a></td>
+        </tr>
+
+        <tr>
+            <td>34. </td>
+            <td><a href="person-34.html">Nasro Maxamed Abukar</a></td>
+            <td><a href="person-34.html">1</a></td>
+        </tr>
+
+        <tr>
+            <td>35. </td>
+            <td><a href="person-35.html">Malyuun Cumar Muxudin</a></td>
+            <td><a href="person-36.html">1</a></td>
+        </tr>
+
+        <tr>
+            <td>36. </td>
+            <td><a href="person-36.html">C/raxmaan Yusuf Macow</a></td>
+            <td><a href="person-36.html">1</a></td>
+        </tr>
+
+        <tr>
+            <td>37. </td>
+            <td><a href="person-37.html">Layla Cisman Ibraahim</a></td>
+            <td><a href="person-37.html">1</a></td>
+        </tr>
+
+        <tr>
+            <td>38. </td>
+            <td><a href="person-38.html">C/mahad Xasan Maxamed</a></td>
+            <td><a href="person-38.html">1</a></td>
+        </tr>
+
+        <tr>
+            <td>39. </td>
+            <td><a href="person-39.html">C/raxman C/laahi Maxamud</a></td>
+            <td><a href="person-39.html">1</a></td>
+        </tr>
+
+        <tr>
+            <td>40. </td>
+            <td><a href="person-40.html">Isra C/laahi Warsame</a></td>
+            <td><a href="person-40.html">1</a></td>
+        </tr>
+
+        <tr>
+            <td>41. </td>
+            <td><a href="person-41.html">Sahro Axmed Bashiir</a></td>
+            <td><a href="person-41.html">1</a></td>
+        </tr>
+
+        <tr>
+            <td>42. </td>
+            <td><a href="person-42.html">Canab Maxamed Xirsi</a></td>
+            <td><a href="person-42.html">1</a></td>
+        </tr>
+
+        <tr>
+            <td>43. </td>
+            <td><a href="person-43.html">Mahdi C/qaadir Cabdi</a></td>
+            <td><a href="person-43.html">1</a></td>
+        </tr>
+
+        <tr>
+            <td>44. </td>
+            <td><a href="person-44.html">Maxamed Cali Cabdi</a></td>
+            <td><a href="person-44.html">1</a></td>
+        </tr>
+
+        <tr>
+            <td>45. </td>
+            <td><a href="#">Sayid-cali Cabdi Cali</a></td>
+            <td>0</td>
+        </tr>
+
+        <tr>
+            <td>46. </td>
+            <td><a href="person-46.html">Bashiir C/nasir Cumar</a></td>
+            <td><a href="person-46.html">1</a></td>
+        </tr>
+
+        <tr>
+            <td>47. </td>
+            <td><a href="person-47.html">C/maalik muse Raage</a></td>
+            <td><a href="person-47.html">1</a></td>
+        </tr>
+
+        <tr>
+            <td>48. </td>
+            <td><a href="person-48.html">Bashiir Maxamed Cali</a></td>
+            <td><a href="person-48.html">1</a></td>
+        </tr>
+
+        <tr>
+            <td>49. </td>
+            <td><a href="#">Yuusuf Sadaq Maxamed</a></td>
+            <td>0</td>
+        </tr>
+
+        <tr>
+            <td>50. </td>
+            <td><a href="person-50.html">C/casiis Maxamed Cabdi</a></td>
+            <td><a href="person-50.html">1</a></td>
+        </tr>
+
+        <tr>
+            <td>51. </td>
+            <td><a href="#">Salmo C/laahi Maxamed</a></td>
+            <td>0</td>
+        </tr>
+
+        <tr>
+            <td>52. </td>
+            <td><a href="person-52.html">C/wahab Abshir Cabdule</a></td>
+            <td><a href="person-52.html">1</a></td>
+        </tr>
+
+        <tr>
+            <td>53. </td>
+            <td><a href="person-53.html">Maalik Yacquub Shariif</a></td>
+            <td><a href="person-53.html">1</a></td>
+        </tr>
+
+        <tr>
+            <td>54. </td>
+            <td><a href="person-54.html">Muxudin Axmed Nuur</a></td>
+            <td><a href="person-54.html">1</a></td>
+        </tr>
+
+        <tr>
+            <td>55. </td>
+            <td><a href="person-55.html">C/waxid Maxamed Sayid-cali</a></td>
+            <td><a href="person-55.html">1</a></td>
+        </tr>
+
+        <tr>
+            <td>56. </td>
+            <td><a href="person-56.html">Sahra Abukar Cali</a></td>
+            <td><a href="person-56.html">1</a></td>
+        </tr>
+
+        <tr>
+            <td>57. </td>
+            <td><a href="person-57.html">Xanaan C/raxman Maxamuud</a></td>
+            <td><a href="person-57.html">1</a></td>
+        </tr>
+
+        <tr>
+            <td>58. </td>
+            <td><a href="#">Aamino C/laahi Maxamed</a></td>
+            <td>0</td>
+        </tr>
+
+        <tr>
+            <td>59. </td>
+            <td><a href="person-59.html">Maxamuud Cumar Cali</a></td>
+            <td><a href="person-59.html">1</a></td>
+        </tr>
+
+        <tr>
+            <td>60. </td>
+            <td><a href="person-60.html">Faadumo C/qadir Suufi</a></td>
+            <td><a href="person-60.html">1</a></td>
+        </tr>
+
+        <tr>
+            <td>61. </td>
+            <td><a href="person-61.html">C/wali Cali Maxamuud</a></td>
+            <td><a href="person-61.html">1</a></td>
+        </tr>
+
+        <tr>
+            <td>62. </td>
+            <td><a href="#">Xabiib Axmed Cumar</a></td>
+            <td>0</td>
+        </tr>
+
+        <tr>
+            <td>63. </td>
+            <td><a href="person-63.html">Sakariye C/qadir Cali</a></td>
+            <td><a href="person-63.html">1</a></td>
+        </tr>
+
+        <tr>
+            <td>64. </td>
+            <td><a href="person-64.html">C/qadir Farax Maxamud</a></td>
+            <td><a href="person-64.html">1</a></td>
+        </tr>
+
+        <tr>
+            <td>65. </td>
+            <td><a href="person-65.html">Ciise c/raxmaan Maxamed</a></td>
+            <td><a href="person-65.html">1</a></td>
+        </tr>
+
+        <tr>
+            <td>66. </td>
+            <td><a href="person-66.html">Caasho Muqtaar Xasan</a></td>
+            <td><a href="person-66.html">1</a></td>
+        </tr>
+
+        <tr>
+            <td>67. </td>
+            <td><a href="#">Ayuub Maxamuud Axmed</a></td>
+            <td>0</td>
+        </tr>
+
+        <tr>
+            <td>68. </td>
+            <td><a href="person-68.html">Ibraahim Abukar Sharif</a></td>
+            <td><a href="person-68.html">1</a></td>
+        </tr>
+
+        <tr>
+            <td>69. </td>
+            <td><a href="person-69.html">C/casis Aadan Xasan</a></td>
+            <td><a href="person-69.html">1</a></td>
+        </tr>
+
+        <tr>
+            <td>70. </td>
+            <td><a href="person-70.html">Siciid Deeq Ciise</a></td>
+            <td><a href="person-70.html">1</a></td>
+        </tr>
+
+        <tr>
+            <td>71. </td>
+            <td><a href="person-71.html">Maxamed Botaan Odaysuge</a></td>
+            <td><a href="person-71.html">1</a></td>
+        </tr>
+
+        <tr>
+            <td>72. </td>
+            <td><a href="person-72.html">Faarax Xasan Cilmi</a></td>
+            <td><a href="person-72.html">1</a></td>
+        </tr>
+
+        <tr>
+            <td>73. </td>
+            <td><a href="person-73.html">Sakariye Daahir Axmed</a></td>
+            <td><a href="person-73.html">1</a></td>
+        </tr>
+
+        <tr>
+            <td>74. </td>
+            <td><a href="person-74.html">Maandeeq C/raxmaan Xasan</a></td>
+            <td><a href="person-74.html">1</a></td>
+        </tr>
+
+        <tr>
+            <td>75. </td>
+            <td><a href="person-75.html">Maxamuud Aadan Kusow</a></td>
+            <td><a href="person-75.html">1</a></td>
+        </tr>
+
+        <tr>
+            <td>76. </td>
+            <td><a href="#">Maxamed C/lahi Barre</a></td>
+            <td>0</td>
+        </tr>
+
+        <tr>
+            <td>77. </td>
+            <td><a href="person-77.html">Axmed Maxamed Axmed</a></td>
+            <td><a href="person-77.html">1</a></td>
+        </tr>
+
+        <tr>
+            <td>78. </td>
+            <td><a href="person-78.html">C/laahi Rooble Cali</a></td>
+            <td><a href="person-78.html">1</a></td>
+        </tr>
+
+        <tr>
+            <td>79. </td>
+            <td><a href="person-79.html">Maxamed Ibrahim Xasan</a></td>
+            <td><a href="person-79.html">1</a></td>
+        </tr>
+
+        <tr>
+            <td>80. </td>
+            <td><a href="person-80.html">C/najib Shaacir C/kariin</a></td>
+            <td><a href="person-80.html">1</a></td>
+        </tr>
+        
+        <tr>
+            <td>81. </td>
+            <td><a href="person-81.html">C/maalik C/laahi Muuse</a></td>
+            <td><a href="person-81.html">1</a></td>
+        </tr>
+
+        <tr>
+            <td>82. </td>
+            <td><a href="person-82.html">Sihaam Maxamed Muqtar</a></td>
+            <td><a href="person-82.html">1</a></td>
+        </tr>
+
+</body>
+</html>

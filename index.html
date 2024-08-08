@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Problems</title>
+    <link rel="stylesheet" href="contact.html" target="_blank">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="home-bage.html">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+        ul{
+            padding: 0;
+            margin: 0;
+            list-style-type: none;
+            overflow: hidden;
+            background-color: #38444d;
+        }
+        li{
+            float: left;
+        }
+
+        li a {
+            text-decoration: none;
+        }
+
+        li a, .dropbtn {
+            display: inline-block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+          }
+          
+          li a:hover, .dropdown:hover .dropbtn {
+            background-color: red;
+          }
+          
+          li.dropdown {
+            display: inline-block;
+          }
+          
+          .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+          }
+          
+          .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+          }
+          
+          .dropdown-content a:hover {background-color: #f1f1f1;}
+          
+          .dropdown:hover .dropdown-content {
+            display: block;
+          }
+         
+          
+       
+          
+         
+
+         
+          
+          /**-------main bage--------**/
+          
+
+          div.gallery {
+            border: 1px solid #ccc;
+  
+          }
+          
+          div.gallery:hover {
+            border: 1px solid #777;
+          }
+          
+          div.gallery img {
+            width: 100%;
+            height: auto;
+          }
+          
+          div.desc {
+            padding: 15px;
+            text-align: center;
+          }
+          
+          * {
+            box-sizing: border-box;
+          }
+          
+          .responsive {
+            padding: 0 6px; 
+            float: left;
+            width: 24.99999%;
+          }
+          
+          @media only screen and (max-width: 700px) {
+            .responsive {
+              width: 49.99999%;
+              margin: 6px 0;
+              top: auto;
+              bottom: 0;
+              display: flex;
+              
+            }
+          }
+          
+          @media only screen and (max-width: 500px) {
+            .responsive {
+              width: 100%;
+            }
+           
+            
+            }
+          
+          
+          .clearfix:after {
+            content: "";
+            display: table;
+            clear: both;
+          }
+
+
+        input[type=text] {
+          width: 130px;
+          box-sizing: border-box;
+          border: 2px solid #ccc;
+          border-radius: 4px;
+          font-size: 16px;
+          background-color: white;
+          background-image: url('searchicon.png');
+          background-position: 10px 10px; 
+          background-repeat: no-repeat;
+          padding: 12px 20px 12px 40px;
+          transition: width 0.4s ease-in-out;
+        }
+        
+        input[type=text]:focus {
+          width: 100%;
+        }
+
+        .form1{
+          margin-top: 7px;
+          float: right;
+          margin-right: 10px;
+        }
+
+        .column{
+          float: left;
+          width: 33.33%;
+          padding: 15px;
+      }
+      
+      .row::after{
+          content: "";
+          display: table;
+          clear: both;
+      }
+      div.container1{
+        padding: 10px;
+      }
+    footer .brand{
+    font-family: var(--lg-font);
+    letter-spacing: 2px;
+  }
+  footer a{
+    -webkit-transition: color 0.3s ease;
+    -o-transition: color 0.3s ease;
+    transition: color 0.3s ease;
+  }
+  footer a:hover{
+    color: var(--pink)!important;
+  }
+
+
+
+      
+        
+    </style>
+    <link rel="stylesheet" href="vertical menu.html">
+</head>
+<body>
+    <ul>
+        <li><a href="horizental home.html" target="_blank">Home</a></li>
+        <li><a href="#about us">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="problem.html" target="_blank">Problems</a></li>
+    </ul>
+
+    <form class="form1" >
+  <input type="text" name="search" placeholder="Search..">
+</form>
+
+    <div class="dropdown" style="margin-top: 30px;">
+        <span>Visit this section</span>
+    
+        <div class="dropdown-content">
+        <p>Hi! welcome </p>
+        
+        </div>
+      </div> 
+      <br>
+
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="img_5terre.jpg">
+            <img src="graphic.png/bigstock-Software-Developer-Freelancer-321565021-scaled.jpg" alt="Cinque Terre" width="600" height="1000px">
+          </a>
+          <div class="desc">  Softwre Engineering</div>
+        </div>
+      </div>
+
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="img_forest.jpg">
+            <img src="graphic.png/graphic design.jpg" alt="Forest" width="600" height="400">
+          </a>
+          <div class="desc">Graphic design</div>
+        </div>
+      </div>
+
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="img_lights.jpg">
+            <img src="graphic.png/image_c0eccf004a.jpg" alt="Northern Lights" width="600" height="400">
+          </a>
+          <div class="desc">Drawing</div>
+        </div>
+      </div>
+
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="img_mountains.jpg">
+            <img src="graphic.png/computer-programmer-writing-code-at-his-desk.jpeg" alt="Mountains" width="600" height="500px">
+          </a>
+          <div class="desc">Web developer</div>
+        </div>
+      </div>
+
+      <div class="clearfix"></div>
+
+<div style="padding:6px;">
+  <p>This example use media queries to re-arrange the images on different screen sizes: for screens larger than 700px wide, it will show four images side by side, for screens smaller than 700px, it will show two images side by side. For screens smaller than 500px, the images will stack vertically (100%).</p>
+  <p>You will learn more about media queries and responsive web design later in our CSS Tutorial.</p>
+</div>
+
+<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione sint numquam, sit non quidem dolore ullam eos molestias laboriosam quam. Assumenda eveniet nulla aperiam molestiae corporis nam cumque sequi doloremque, tempora aspernatur culpa praesentium, architecto consectetur nemo! Tempora, dolor sit eum temporibus eius expedita ea commodi minus nobis molestias similique?</p>
+<p style="margin-top: 10px;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti, nostrum magni perspiciatis quos at numquam pariatur itaque est reiciendis repellendus enim minima tenetur soluta amet! Consectetur nesciunt dignissimos adipisci rem ullam molestias autem suscipit eaque et quibusdam voluptatem obcaecati dicta, praesentium libero exercitationem molestiae itaque quia dolore neque id doloribus aperiam debitis, aut magni. Quidem ex vel cum, culpa quis ullam esse beatae non commodi dolorum recusandae ad ut quam?</p>
+
+
+ <!-- about as -->
+ <section id="about us" class="p-5" id="#about">
+  <div class="container-sm">
+    <h1 class="text-center mb-5 bg-body-tertiary">About <span class="text-dark">Us</span></h1>
+
+    <div class="row row-gap-3">
+      <div class="col-sm-6 d-flex justify-content-center align-items-center flex-column">
+        <h1 class="text-center mb-5 text-dark  ">Our Story</span></h1>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas quis, repellendus illo commodi consequuntur
+          mollitia libero cumque, quidem magnam deserunt quia rem ea. Assumenda blanditiis quasi eos, unde cum magni!
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid in cum suscipit optio quaerat vitae
+          ducimus doloremque ipsa repudiandae architecto voluptatem, incidunt ab molestias sint natus? Recusandae nisi
+          iusto harum?
+        </p>
+
+
+
+      </div>
+      <div class="col-sm-6">
+
+        <img  src="graphic.png/contact.png.jpeg" class="w-100" alt=""  />
+
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+<!-- footer -->
+<footer class="bg-dark py-5">
+  <div class="container-sm">
+    <div class="row">
+      <div class="col-sm-6 col-md-3">
+        <h4 class="text-white">Information</h4>
+        <p class="text-white" style="font-size: 14px; font-weight:100;">
+          Location, Warta nabada, Mogadishu
+        </p>
+        <p class="text-white" style="font-size: 14px; font-weight:100;">
+          University, Somali national university
+        </p>
+        <p class="text-white" style="font-size: 14px; font-weight:100;">
+          Country, Somali
+        </p>
+        
+      </div>
+      
+      <div class="col-sm-6 col-md-3">
+        <h4 class="text-white">About Website</h4>
+        <p  class="text-white"style="font-size: 14px; font-weight:100;">
+          Technology
+        </p>
+        <p  class="text-white"style="font-size: 14px; font-weight:100;">
+          Software developer
+        </p>
+        <p  class="text-white"style="font-size: 14px; font-weight:100;">
+          Self learning
+        </p>
+        <p  class="text-white"style="font-size: 14px; font-weight:100;">
+          Graphic design
+        </p>
+
+      </div>
+      <div class="col-sm-6 col-md-3">
+        <h4 class="text-white">Email us</h4>
+        <p  class="text-white"style="font-size: 14px; font-weight:100;">
+          Zackdaahir@gmail.com
+        </p>
+        <p  class="text-white"style="font-size: 14px; font-weight:100;">
+          Zakitaanozakitaano@gmail.com
+        </p>
+        <p  class="text-white"style="font-size: 14px; font-weight:100;">
+          Itnet@gmail.com
+        </p>
+       
+
+      </div>
+      <div class="col-sm-6 col-md-3">
+        <h4 class="text-white">POLICES</h4>
+        <p  class="text-white"style="font-size: 14px; font-weight:100;">
+          Delivery Terms
+        </p>
+        <p  class="text-white"style="font-size: 14px; font-weight:100;">
+          Protect the law
+        </p>
+        <p  class="text-white"style="font-size: 14px; font-weight:100;">
+          Terms Of Use
+        </p>
+
+      </div>
+
+    </div>
+  </div>
+</footer>
+<script src="ebay.js"></script> 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+</html>
